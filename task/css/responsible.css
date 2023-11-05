@@ -1,0 +1,244 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 500px) {
+    .bergermenue{
+        background-color: rgba(240, 248, 255, 0);
+        display: block;
+        border: none;
+        cursor: pointer;
+    
+    }
+    .nav_content_first,.nav_con{
+        display: none;
+    }
+    .pic_logo>img{
+        max-width: 70px;
+    }
+    nav{
+        flex-direction: column;
+        height: auto;
+        padding-top: 20px;
+    }
+   .nav_resp {
+        display: flex;
+        flex-direction: column;
+        order: 3;
+        position: static;
+        top: 138px;
+        line-height: 84px;
+        font-size: 2rem;
+    }
+    .my_logo{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+
+    }
+    .nav_content{
+        flex-direction: column;
+    }
+
+    .bilbord{
+        flex-direction: column;
+        height: auto;
+        padding: 50px 0px;
+
+    }
+    .img_bilbord img{
+        width: 90vw;
+    }
+    .details_bilbord{
+        width: 90%;
+    }
+    .details_bilbord h1{
+        font-size: 2em;
+    }
+    .team{
+        height: auto;      
+        padding-bottom:4rem;  
+    }
+    .details_team{
+        width: 70%;
+    }
+    
+    .item_card{
+        width: 70%;  
+        height: 400px;
+        margin: 45px;
+      
+    }
+    .card_team{
+        flex-direction: column;
+        align-items: center   
+     }
+     .item_card{
+        width: 44%;  
+        height: 500px;
+    }
+    .testimodal{
+        height: auto;
+    }
+    .testimodal_card{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        margin-bottom: 50px;
+    }
+    .testimodal_box_details{
+        flex-direction: column;
+    }
+    .testimodal_box_details h1{
+        font-size: 1.3rem;
+    }
+    .testimodal_card_box,.testimodal_title{
+        width: 70%;
+        margin-top: 50px;
+    }
+    .footerclass{
+        display: flex; 
+        flex-wrap: wrap;
+     } 
+     .about{
+        order: 2;
+        width: 50%;
+     }
+     .resources{
+        order: 2;
+
+       width: 50%;
+    }
+    .mycompani{
+        display: none;
+       width: 50%;
+    }
+    .footer_logo{
+       order: 1;
+       width: 100%;
+       position: static;
+    }
+    .list_about a{
+        display:block;
+        font-size: 10px;
+     }
+     .list_about h1{
+        font-size: 15px;
+     }
+   
+}
+
+
+/* Medium devices (landscape tablets, 600px and up) */
+@media  screen and (min-width: 500px) and (max-width:996px) {
+    .bergermenue{
+        background-color: rgba(240, 248, 255, 0);
+        display: block;
+        border: none;
+        cursor: pointer;
+    
+    }
+    .nav_content_first,.nav_con{
+        display: none;
+    }
+    .pic_logo>img{
+        max-width: 70px;
+    }
+    nav{
+        flex-direction: column;
+        height: auto;
+        padding-top: 20px;
+    }
+   .nav_resp {
+        display: flex;
+        flex-direction: column;
+        order: 3;
+        position: static;
+        top: 138px;
+        line-height: 84px;
+        font-size: 2rem;
+    }
+    .my_logo{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+
+    }
+    .nav_content{
+        flex-direction: column;
+    }
+
+    .bilbord{
+        flex-direction: column;
+        height: auto;
+        padding: 50px 0px;
+
+    }
+    .img_bilbord img{
+        width: 80vw;
+    }
+    .details_bilbord{
+        width: 90%;
+    }
+    .details_bilbord h1{
+        font-size: 3em;
+    }
+    .team{
+        height: 800px;      
+        padding-bottom:4rem;  
+    }
+    .details_team{
+        width: 70%;
+    }
+    .img3{
+        display: none;
+    }
+    .item_card{
+        width: 44%;  
+        height: 500px;
+    }
+    .testimodal{
+        height: auto;
+    }
+    .testimodal_card{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        margin-bottom: 50px;
+    }
+    .testimodal_box_details{
+        flex-direction: column;
+    }
+    .testimodal_box_details h1{
+        font-size: 1.3rem;
+    }
+    .testimodal_card_box,.testimodal_title{
+        width: 70%;
+        margin-top: 50px;
+    }
+    .about{
+        width: 30%;
+     }
+     .resources{
+        width: 35%;
+    }
+    .mycompani{
+        width: 25%;
+    }
+    .footer_logo{
+        width: 10%;
+    }
+    .footer_logo img{
+        width: 50px;
+    }
+    .my_introduction h1,p,h3{
+        font-size: 1rem;
+    }
+    .product h1{
+        font-size: 1rem;
+    }
+    .product p{
+        font-size: 1.5vw;
+    }
+}
+
+
